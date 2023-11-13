@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    height: 100%;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+   
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+nav h3{
+    font-size: 100%;
+    color: blue;
+}
+
+header{
+    width: 100%;
+    background: gray;
+    height: 40%;
+    padding: 30px;
+    text-align: center;
+
+}
+
+header h3{
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+div{ 
+  display: flex;
+  justify-content:center;
+
+}
+  
+
+
+form{
+    background: blanchedalmond;  
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+   
+
+ 
+}
+
+
+
+
+
+input{
+    padding: 5px;
+    display: block;
+    margin: 5%;
+    
+    
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 20px;
+}
+
+label{
+    
+    margin: 3%;
+}
+
+
+
+textarea{
+    width: 100%;
+  
+    
+}
+
+input[type="button"]{
+    width: 50px;
+    height: 40px;
+    color: beige;
+    background: blue;
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    textarea{
+       
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+footer{
+    
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: wheat;
+}
